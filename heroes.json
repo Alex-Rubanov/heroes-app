@@ -1,0 +1,29 @@
+{
+    "heroes": [
+        {
+            "id": 1,
+            "name": "First Hero",
+            "description": "First hero in the ranking!",
+            "element": "fire"
+        },
+        {
+            "id": 2,
+            "name": "Unknown Hero",
+            "description": "Hiding in the shadow",
+            "element": "wind"
+        },
+        {
+            "id": 3,
+            "name": "Sea Hero",
+            "description": "Like aquamen, but no from DC",
+            "element": "water"
+        }
+    ],
+    "filters": [
+        "all",
+        "fire",
+        "water",
+        "wind",
+        "earth"
+    ]
+}
