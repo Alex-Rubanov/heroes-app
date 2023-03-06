@@ -1,23 +1,29 @@
 {
   "heroes": [
     {
-        "id": 1,
-        "name": "Первый герой",
-        "description": "Первый герой в рейтинге!",
-        "element": "fire"
-      },
-      {
-        "id": 2,
-        "name": "Неизвестный герой",
-        "description": "Скрывающийся в тени",
-        "element": "wind"
-      },
-      {
-        "id": 3,
-        "name": "Морской герой",
-        "description": "Как аквамен, но не из DC",
-        "element": "water"
-      }
+      "id": 1,
+      "name": "Первый герой",
+      "description": "Первый герой в рейтинге!",
+      "element": "fire"
+    },
+    {
+      "id": 2,
+      "name": "Неизвестный герой",
+      "description": "Скрывающийся в тени",
+      "element": "wind"
+    },
+    {
+      "id": 3,
+      "name": "Морской герой",
+      "description": "Как аквамен, но не из DC",
+      "element": "water"
+    },
+    {
+      "id": "6027a303-883d-4dc2-b51b-475a02b91eec",
+      "name": "Provvvvv",
+      "description": "Flying",
+      "element": "fire"
+    }
   ],
   "filters": [
     "all",
