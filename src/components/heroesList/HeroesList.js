@@ -25,7 +25,6 @@ const HeroesList = () => {
             .then(data => dispatch(heroesFetched(data)))
             .catch(() => dispatch(heroesFetchingError()))
 
-        console.log('render1')
         // eslint-disable-next-line
     }, []);
 
@@ -51,7 +50,7 @@ const HeroesList = () => {
                     timeout={0}
                     classNames="hero"
                 >
-                    <h5 className="text-center mt-5">There are not available heroes at the moment</h5>
+                    <h5 className="text-center mt-5">There are no available heroes at the moment</h5>
                 </CSSTransition>
             )
         }

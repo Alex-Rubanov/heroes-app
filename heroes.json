@@ -19,17 +19,43 @@
       "element": "water"
     },
     {
-      "id": "6027a303-883d-4dc2-b51b-475a02b91eec",
-      "name": "Provvvvv",
-      "description": "Flying",
-      "element": "fire"
+      "id": "c27a62c1-c5c6-46fe-bf28-447af2c1a4e2",
+      "name": "Provvvy",
+      "description": "smiling",
+      "element": "wind"
+    },
+    {
+      "id": "7c36da31-e39e-474d-8928-d73f80321b32",
+      "name": "AAsa",
+      "description": "VVVVVV",
+      "element": "wind"
     }
   ],
   "filters": [
-    "all",
-    "fire",
-    "water",
-    "wind",
-    "earth"
+    {
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Fire",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Water",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Wind",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Earth",
+      "className": "btn-secondary"
+    }
   ]
 }
