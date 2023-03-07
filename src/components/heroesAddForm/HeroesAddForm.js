@@ -40,9 +40,9 @@ const HeroesAddForm = () => {
         }
 
         request('http://localhost:3001/heroes', 'POST', JSON.stringify(newHero))
-        .then(res => console.log(res, 'Hero was successfully created'))
-        .then(dispatch(heroCreated(newHero)))
-        .catch(error => console.log(error.message))
+            .then(res => console.log(res, 'Hero was successfully created'))
+            .then(dispatch(heroCreated(newHero)))
+            .catch(error => console.log(error.message));
 
         setName('');
         setDescription('');
@@ -58,7 +58,7 @@ const HeroesAddForm = () => {
         }
 
         if (filters && filters.length > 0) {
-            return filters.map(({ name, label}) => {
+            return filters.map(({ name, label }) => {
                 if (name === 'all') return;
 
                 return <option value={name} key={name}>{label}</option>
