@@ -3,7 +3,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from "react";
 import classNames from "classnames";
 
-import { filtersFetch, activeFilterChanged } from "../../actions";
+import { filtersFetch } from "../../actions";
+import { activeFilterChanged } from "./filtersSlice"; 
 import Spinner from "../spinner/Spinner";
 
 const HeroesFilters = () => {
