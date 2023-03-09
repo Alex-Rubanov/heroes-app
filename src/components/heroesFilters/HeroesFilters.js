@@ -1,10 +1,8 @@
-import { useHttp } from "../../hooks/http.hook";
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from "react";
 import classNames from "classnames";
 
-import { filtersFetch } from "../../actions";
-import { activeFilterChanged } from "./filtersSlice"; 
+import { activeFilterChanged, fetchFilters } from "./filtersSlice"; 
 import Spinner from "../spinner/Spinner";
 
 const HeroesFilters = () => {
@@ -12,10 +10,8 @@ const HeroesFilters = () => {
     const {filters, filtersLoadingStatus, activeFilter} = useSelector(state => state.filters);
     const dispatch = useDispatch();
 
-    const {request} = useHttp();
-
     useEffect(() => {
-        dispatch(filtersFetch(request));
+        dispatch(fetchFilters());
 
         // eslint-disable-next-line
     }, [])
